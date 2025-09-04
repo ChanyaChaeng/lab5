@@ -9,5 +9,6 @@ echo "<tr><td>Credit:</td><td><input type=text name=credit /></td></tr>";
 echo "<tr><td colspan=2><center><input type=submit value=Submit /></center></td></tr>";
 echo "</table>";
 echo "</form>";
+echo "<br><a href=course_list.php>back</a>";
 echo "</center>";
 ?>

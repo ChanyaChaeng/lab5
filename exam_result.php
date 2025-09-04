@@ -1,5 +1,7 @@
+<?php include ("navbar.php"); ?>
 <?php
 require("connect_db.php");
+echo "<center>";
 $sql = "SELECT * FROM courses";
 $result = mysqli_query($conn, $sql);
 ?>
@@ -28,3 +30,5 @@ $result = mysqli_query($conn, $sql);
 </body>
 
 </html>
+<?php echo "</center>";
+?>

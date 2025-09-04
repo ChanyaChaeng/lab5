@@ -1,3 +1,4 @@
+<?php include ("navbar.php"); ?>
 <?php
 require("connect_db.php");
 $sql = "SELECT student_code, student_name, gender FROM students";
